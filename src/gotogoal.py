@@ -26,9 +26,9 @@ class turtlebot():
 
     def move2goal(self):
         goal_pose = Pose()
-        goal_pose.x = input("Set your x goal:")
-        goal_pose.y = input("Set your y goal:")
-        distance_tolerance = input("Set your tolerance:")
+        goal_pose.x = float(input("Set your x goal:"))
+        goal_pose.y = float(input("Set your y goal:"))
+        distance_tolerance = float(input("Set your tolerance:"))
         vel_msg = Twist()
 
 
